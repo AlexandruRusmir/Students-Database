@@ -231,7 +231,7 @@ void actualizare()
                 fgets(varsta, sizeof(varsta), stdin);
                 varsta[strlen(varsta)-1]=NULL;
 
-                printf("\/tMedia: ");
+                printf("\tMedia: ");
                 fflush(stdin);
                 printf("\t");
                 fgets(medie, sizeof(medie), stdin);
